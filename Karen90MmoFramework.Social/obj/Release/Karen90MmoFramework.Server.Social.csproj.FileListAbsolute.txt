@@ -1,0 +1,45 @@
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\log4net.config
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.Server.Social.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.Server.Social.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\ExitGames.Logging.Log4Net.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\ExitGamesLibs.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.Server.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\log4net.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Photon.SocketServer.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.Physics.Specialized.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.Geometry.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.Physics.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.Mathematics.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Raven.Client.Lightweight.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Raven.Abstractions.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Microsoft.CompilerServices.AsyncTargetingPack.Net4.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.Server.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\obj\Release\Karen90MmoFramework.Server.Social.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\obj\Release\Karen90MmoFramework.Server.Social.pdb
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\log4net.config
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.Server.Social.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.Server.Social.pdb
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\ExitGamesLibs.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.Server.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Photon.SocketServer.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.Physics.Specialized.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.Geometry.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.Physics.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.Mathematics.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Raven.Client.Lightweight.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Raven.Abstractions.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\DigitalRune.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\ExitGames.Logging.Log4Net.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Microsoft.CompilerServices.AsyncTargetingPack.Net4.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.Server.pdb
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\bin\Release\Karen90MmoFramework.pdb
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\obj\Release\Karen90MmoFramework.Server.Social.csprojResolveAssemblyReference.cache
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\obj\Release\Karen90MmoFramework.Server.Social.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Social\obj\Release\Karen90MmoFramework.Server.Social.pdb
+F:\project-zoso\bin\social\log4net.config
+F:\project-zoso\bin\social\Karen90MmoFramework.Server.Social.dll
+F:\project-zoso\bin\social\Karen90MmoFramework.Server.Social.pdb

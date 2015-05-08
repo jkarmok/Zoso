@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Colliders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BoxColliders>
+    <BoxDescription>
+      <Position>
+        <X>1332.21094</X>
+        <Y>2.16933441</Y>
+        <Z>549.060547</Z>
+      </Position>
+      <Rotation>
+        <X>0</X>
+        <Y>-0.383799136</Y>
+        <Z>0</Z>
+        <W>0.9234166</W>
+      </Rotation>
+      <Scale>
+        <X>3</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </Scale>
+      <Size>
+        <X>0.1</X>
+        <Y>1.25</Y>
+        <Z>0.1</Z>
+      </Size>
+    </BoxDescription>
+  </BoxColliders>
+  <SphereColliders />
+  <CapsuleColliders />
+</Colliders>

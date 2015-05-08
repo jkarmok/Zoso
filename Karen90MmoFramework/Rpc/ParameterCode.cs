@@ -1,0 +1,67 @@
+﻿namespace Karen90MmoFramework.Rpc
+{
+	public enum ParameterCode : byte
+	{
+		// (internal) clientId = 0
+		// (internal) game op code = 1
+		// (internal) state = 2,
+		// (internal) receiving server = 3,
+		// (internal) master time stamp = 4,
+		// (internal) server time stamp = 5,
+
+		ServerId					= 10,
+		ServerType					= 11,
+		Address						= 12,
+		UdpPort						= 13,
+		TcpPort						= 14,
+		SubServerId					= 15,
+		ClientState					= 16,
+		SessionId					= 17,
+		CallbackId					= 18,
+		Guid						= 19,
+		Username					= 20,
+		Password					= 21,
+		CharacterName				= 22,
+		Value						= 23,
+		DialogueId					= 24,
+		Data						= 25,
+		WorldId						= 26,
+		ChannelId					= 27,
+		MessageType					= 28,
+		ObjectId					= 29,
+		Properties					= 30,
+		Position					= 31,
+		Orientation					= 32,
+		PropertyCode				= 33,
+		Revision					= 34,
+		Quantity					= 35,
+		ChannelType					= 36,
+		ChannelName					= 37,
+		Sender						= 38,
+		Receiver					= 39,
+		Message						= 40,
+		ItemId						= 41,
+		// 42
+		Index						= 43,
+		IndexFrom					= 44,
+		SpellId						= 45,
+		Result						= 46,
+		Gold						= 47,
+		Collection					= 48,
+		OverheadStatus				= 49,
+		Xp							= 50,
+		// 51
+		Flags						= 52,
+		SentTime					= 53,
+		Keys						= 54,
+		MovementState				= 55,
+		Speed						= 56,
+		MovementDirection			= 57,
+		Pitch						= 58,
+		Condition					= 59,
+		Status						= 60,
+		// 61
+		Size						= 62,
+		QuestId						= 63,
+	}
+}

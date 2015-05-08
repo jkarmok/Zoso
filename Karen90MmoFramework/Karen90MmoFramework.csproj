@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A930D2DB-B921-4F79-B584-39F57257B642}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Karen90MmoFramework</RootNamespace>
+    <AssemblyName>Karen90MmoFramework</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MMO|AnyCPU'">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FixedList.cs" />
+    <Compile Include="Game\ActionItemStructure.cs" />
+    <Compile Include="Game\ActionItemType.cs" />
+    <Compile Include="Game\ConversationStructure.cs" />
+    <Compile Include="Game\ItemStructure.cs" />
+    <Compile Include="Game\UseLimit.cs" />
+    <Compile Include="Game\Vitals.cs" />
+    <Compile Include="Game\SlotItemStructure.cs" />
+    <Compile Include="Game\MessageType.cs" />
+    <Compile Include="Game\OnlineStatus.cs" />
+    <Compile Include="Game\Stats.cs" />
+    <Compile Include="Rpc\InvitationResult.cs" />
+    <Compile Include="IPoolObject.cs" />
+    <Compile Include="Game\ProfileProperty.cs" />
+    <Compile Include="StorageMap.cs" />
+    <Compile Include="IStorageMapAccessor.cs" />
+    <Compile Include="Counter.cs" />
+    <Compile Include="Game\DynamicType.cs" />
+    <Compile Include="Game\GroupMemberStructure.cs" />
+    <Compile Include="Game\PropertyFlags.cs" />
+    <Compile Include="Game\Formulas.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="ObjectPool.cs" />
+    <Compile Include="Quantum\Axis.cs" />
+    <Compile Include="Colliders.cs" />
+    <Compile Include="Quantum\Geometry\BoxDescription.cs" />
+    <Compile Include="Quantum\Geometry\CapsuleDescription.cs" />
+    <Compile Include="Quantum\ITriggerVolume.cs" />
+    <Compile Include="Quantum\Physics\CharacterControllerDescription.cs" />
+    <Compile Include="Quantum\Physics\ColliderDescription.cs" />
+    <Compile Include="Quantum\Geometry\CylinderDescription.cs" />
+    <Compile Include="Quantum\Geometry\HeightFieldDescription.cs" />
+    <Compile Include="Quantum\Physics\TriggerVolumeDescription.cs" />
+    <Compile Include="Quantum\Physics\MotionType.cs" />
+    <Compile Include="Quantum\Geometry\SphereDescription.cs" />
+    <Compile Include="Quantum\IBoxShape.cs" />
+    <Compile Include="Quantum\ICapsuleShape.cs" />
+    <Compile Include="Quantum\ICharacterController.cs" />
+    <Compile Include="Quantum\ICylinderShape.cs" />
+    <Compile Include="Quantum\IHeightField.cs" />
+    <Compile Include="Quantum\IPhysicsWorld.cs" />
+    <Compile Include="Quantum\IWorldObject.cs" />
+    <Compile Include="Quantum\IShape.cs" />
+    <Compile Include="Quantum\ISphereShape.cs" />
+    <Compile Include="Quantum\Math\Bounds.cs" />
+    <Compile Include="Quantum\Math\Mathf.cs" />
+    <Compile Include="Quantum\Math\Matrix3x3.cs" />
+    <Compile Include="Quantum\Math\Matrix4x4.cs" />
+    <Compile Include="Quantum\Math\Quaternion.cs" />
+    <Compile Include="Quantum\Math\Vector3.cs" />
+    <Compile Include="Quantum\Space.cs" />
+    <Compile Include="Quantum\Transform.cs" />
+    <Compile Include="Reference.cs" />
+    <Compile Include="Game\CastResults.cs" />
+    <Compile Include="Game\ChannelType.cs" />
+    <Compile Include="Game\Race.cs" />
+    <Compile Include="Game\Origin.cs" />
+    <Compile Include="Game\MovementDirection.cs" />
+    <Compile Include="Game\MovementState.cs" />
+    <Compile Include="Game\SocialStatus.cs" />
+    <Compile Include="Game\UnitState.cs" />
+    <Compile Include="Rpc\ClientEventCode.cs" />
+    <Compile Include="Rpc\ClientOperationCode.cs" />
+    <Compile Include="Rpc\ParameterCode.cs" />
+    <Compile Include="Rpc\ResultCode.cs" />
+    <Compile Include="Rpc\GameOperationCode.cs" />
+    <Compile Include="Game\InteractionFlags.cs" />
+    <Compile Include="Game\InterestFlags.cs" />
+    <Compile Include="Game\MovementKeys.cs" />
+    <Compile Include="Game\PropertyCode.cs" />
+    <Compile Include="CustomTypeCode.cs" />
+    <Compile Include="Game\ActiveQuestStructure.cs" />
+    <Compile Include="Game\CharacterStructure.cs" />
+    <Compile Include="Game\AuraType.cs" />
+    <Compile Include="Game\BuffType.cs" />
+    <Compile Include="Game\ProfileStructure.cs" />
+    <Compile Include="Game\GameObjectType.cs" />
+    <Compile Include="Game\GroupStructure.cs" />
+    <Compile Include="Game\GroupMemberProperty.cs" />
+    <Compile Include="Game\GroupMemberStatus.cs" />
+    <Compile Include="Game\GroupRole.cs" />
+    <Compile Include="Game\ContainerItemStructure.cs" />
+    <Compile Include="Game\MasteryGuild.cs" />
+    <Compile Include="Game\MenuIconType.cs" />
+    <Compile Include="Game\MenuItemStructure.cs" />
+    <Compile Include="Game\MenuItemType.cs" />
+    <Compile Include="Game\MmoItemType.cs" />
+    <Compile Include="Game\NpcType.cs" />
+    <Compile Include="Game\ObjectType.cs" />
+    <Compile Include="Game\QuestPickupStatus.cs" />
+    <Compile Include="Game\QuestProgressStructure.cs" />
+    <Compile Include="Game\QuestStatus.cs" />
+    <Compile Include="Game\Rarity.cs" />
+    <Compile Include="Game\SocialAlignment.cs" />
+    <Compile Include="Game\Species.cs" />
+    <Compile Include="Game\SpellSchools.cs" />
+    <Compile Include="Game\SpellStates.cs" />
+    <Compile Include="Game\SpellTargetSelectionMethods.cs" />
+    <Compile Include="Game\SpellTargetTypes.cs" />
+    <Compile Include="Game\WeaponTypes.cs" />
+    <Compile Include="GlobaGameSettings.cs" />
+    <Compile Include="IReadOnlyDictionary.cs" />
+    <Compile Include="IReadOnlyHashSet.cs" />
+    <Compile Include="IReadOnlyList.cs" />
+    <Compile Include="MmoGuid.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadOnlyDictionary.cs" />
+    <Compile Include="ReadOnlyHashSet.cs" />
+    <Compile Include="ConcurrentStorageMap.cs" />
+    <Compile Include="StringCacher.cs" />
+    <Compile Include="GlobalSerializerMethods.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetPath)" "F:\Project ZoSo\client\unity_client\Assets\Plugins" /c/y</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

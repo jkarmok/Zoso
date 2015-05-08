@@ -1,0 +1,12 @@
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.AuraControl.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.GameObjectControl.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.LootsControl.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.QuestControls.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.SpellControls.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.frmMain.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.frmItemsWindow.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.MmoItemsControl.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.NpcControl.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.Properties.Resources.resources
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.DatabaseEditor\obj\x86\Release\Karen90MmoFramework.DatabaseEditor.csproj.GenerateResource.Cache

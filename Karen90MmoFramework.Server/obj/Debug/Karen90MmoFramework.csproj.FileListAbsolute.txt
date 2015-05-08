@@ -1,0 +1,108 @@
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\SubServer\bin\log4net.config
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\SubServer\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\SubServer\bin\Karen90MmoFramework.dll
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\SubServer\bin\Karen90MmoFramework.pdb
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\Master\bin\log4net.config
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\Master\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\Master\bin\Karen90MmoFramework.dll
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\Master\bin\Karen90MmoFramework.pdb
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Master\bin\log4net.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Master\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Master\bin\Karen90MmoFramework.dll
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Master\bin\Karen90MmoFramework.pdb
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\log4net.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\Karen90MmoFramework.dll
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\Karen90MmoFramework.pdb
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone\bin\log4net.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone\bin\Karen90MmoFramework.dll
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone\bin\Karen90MmoFramework.pdb
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone0\bin\log4net.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone0\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone0\bin\Karen90MmoFramework.dll
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone0\bin\Karen90MmoFramework.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\SubServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone1\bin\Karen90MmoFramework.dll
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Zone1\bin\Karen90MmoFramework.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\SubServer\obj\Debug\Karen90MmoFramework.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\SubServer\obj\Debug\Karen90MmoFramework.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Karen90MmoFramework.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Karen90MmoFramework.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\ExitGamesLibs.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\log4net.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Photon.SocketServer.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Raven.Abstractions.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Raven.Client.Lightweight.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\ExitGamesLibs.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\ExitGamesLibs.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Photon.SocketServer.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Photon.SocketServer.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Raven.Abstractions.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Raven.Abstractions.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Raven.Client.Lightweight.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\bin\Raven.Client.Lightweight.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.pdb
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.dll
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.pdb
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.dll
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGamesLibs.dll
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\log4net.dll
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Photon.SocketServer.dll
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.dll
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.dll
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.pdb
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.xml
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGamesLibs.pdb
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGamesLibs.xml
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Photon.SocketServer.pdb
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Photon.SocketServer.xml
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.pdb
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.xml
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.pdb
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.xml
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.dll
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.csprojResolveAssemblyReference.cache
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGamesLibs.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.Base.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\log4net.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Photon.SocketServer.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.Base.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGames.Logging.Log4Net.xml
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGamesLibs.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\ExitGamesLibs.xml
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Photon.SocketServer.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Photon.SocketServer.xml
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.xml
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.xml
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.Base.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Karen90MmoFramework.Base.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Abstractions.xml
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework\bin\Raven.Client.Lightweight.xml
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.pdb

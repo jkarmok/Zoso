@@ -1,0 +1,189 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework.Editor", "Karen90MmoFramework.Editor\Karen90MmoFramework.Editor.csproj", "{6BDD7D51-1D20-4002-8770-57652CCC4BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework.Server.Master", "Karen90MmoFramework.Server.Master\Karen90MmoFramework.Server.Master.csproj", "{F850BCAC-F100-4075-9D4F-91A508E70D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework.Server.Login", "Karen90MmoFramework.Server.Login\Karen90MmoFramework.Server.Login.csproj", "{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework.Server.World", "Karen90MmoFramework.Server.World\Karen90MmoFramework.Server.World.csproj", "{42E2C9A6-EC8E-41C1-A8A0-F87724342640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework.Server.Chat", "Karen90MmoFramework.Server.Chat\Karen90MmoFramework.Server.Chat.csproj", "{4FD6176D-2538-4B8B-902C-14A96686A808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework.Server", "Karen90MmoFramework.Server\Karen90MmoFramework.Server.csproj", "{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework", "Karen90MmoFramework\Karen90MmoFramework.csproj", "{A930D2DB-B921-4F79-B584-39F57257B642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3687B337-4F48-423A-BF69-69A23FC19698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework.Client", "Karen90MmoFramework.Client\Karen90MmoFramework.Client.csproj", "{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karen90MmoFramework.Server.Social", "Karen90MmoFramework.Social\Karen90MmoFramework.Server.Social.csproj", "{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		MMO|Any CPU = MMO|Any CPU
+		MMO|Mixed Platforms = MMO|Mixed Platforms
+		MMO|x86 = MMO|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Debug|Mixed Platforms.ActiveCfg = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Debug|Mixed Platforms.Build.0 = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Debug|x86.ActiveCfg = Debug|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Debug|x86.Build.0 = Debug|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.MMO|Any CPU.ActiveCfg = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.MMO|Mixed Platforms.ActiveCfg = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.MMO|x86.ActiveCfg = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Release|Any CPU.ActiveCfg = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Release|x86.ActiveCfg = Release|x86
+		{6BDD7D51-1D20-4002-8770-57652CCC4BF3}.Release|x86.Build.0 = Release|x86
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Debug|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Debug|Mixed Platforms.Build.0 = MMO|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.MMO|Any CPU.ActiveCfg = MMO|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.MMO|Any CPU.Build.0 = MMO|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.MMO|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.MMO|Mixed Platforms.Build.0 = MMO|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.MMO|x86.ActiveCfg = MMO|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F850BCAC-F100-4075-9D4F-91A508E70D0C}.Release|x86.ActiveCfg = Release|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Debug|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Debug|Mixed Platforms.Build.0 = MMO|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.MMO|Any CPU.ActiveCfg = MMO|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.MMO|Any CPU.Build.0 = MMO|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.MMO|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.MMO|Mixed Platforms.Build.0 = MMO|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.MMO|x86.ActiveCfg = MMO|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{16ACCF6E-229D-4F84-9CBD-3D079D0245D2}.Release|x86.ActiveCfg = Release|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Debug|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Debug|Mixed Platforms.Build.0 = MMO|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.MMO|Any CPU.ActiveCfg = MMO|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.MMO|Any CPU.Build.0 = MMO|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.MMO|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.MMO|Mixed Platforms.Build.0 = MMO|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.MMO|x86.ActiveCfg = MMO|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{42E2C9A6-EC8E-41C1-A8A0-F87724342640}.Release|x86.ActiveCfg = Release|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Debug|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Debug|Mixed Platforms.Build.0 = MMO|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.MMO|Any CPU.ActiveCfg = MMO|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.MMO|Any CPU.Build.0 = MMO|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.MMO|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.MMO|Mixed Platforms.Build.0 = MMO|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.MMO|x86.ActiveCfg = MMO|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4FD6176D-2538-4B8B-902C-14A96686A808}.Release|x86.ActiveCfg = Release|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Debug|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Debug|Mixed Platforms.Build.0 = MMO|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.MMO|Any CPU.ActiveCfg = MMO|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.MMO|Any CPU.Build.0 = MMO|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.MMO|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.MMO|Mixed Platforms.Build.0 = MMO|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.MMO|x86.ActiveCfg = MMO|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}.Release|x86.ActiveCfg = Release|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Debug|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Debug|Mixed Platforms.Build.0 = MMO|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.MMO|Any CPU.ActiveCfg = MMO|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.MMO|Any CPU.Build.0 = MMO|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.MMO|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.MMO|Mixed Platforms.Build.0 = MMO|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.MMO|x86.ActiveCfg = MMO|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A930D2DB-B921-4F79-B584-39F57257B642}.Release|x86.ActiveCfg = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.MMO|Any CPU.ActiveCfg = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.MMO|Any CPU.Build.0 = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.MMO|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.MMO|Mixed Platforms.Build.0 = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.MMO|x86.ActiveCfg = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3687B337-4F48-423A-BF69-69A23FC19698}.Release|x86.ActiveCfg = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Debug|Mixed Platforms.ActiveCfg = MMO|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Debug|Mixed Platforms.Build.0 = MMO|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.MMO|Any CPU.ActiveCfg = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.MMO|Any CPU.Build.0 = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.MMO|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.MMO|Mixed Platforms.Build.0 = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.MMO|x86.ActiveCfg = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{22B5B21B-C4DE-440E-8EF6-D071AA655A0C}.Release|x86.ActiveCfg = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.MMO|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.MMO|Any CPU.Build.0 = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.MMO|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.MMO|Mixed Platforms.Build.0 = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.MMO|x86.ActiveCfg = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

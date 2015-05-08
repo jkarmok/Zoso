@@ -1,0 +1,17 @@
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.MasterServer\obj\MMO\Karen90MmoFramework.Server.Master.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.MasterServer\obj\MMO\Karen90MmoFramework.Server.Master.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.MasterServer\obj\MMO\Karen90MmoFramework.Server.Master.pdb
+G:\Project ZoSo\bin\master\log4net.config
+G:\Project ZoSo\bin\master\ServerConfig.config
+G:\Project ZoSo\bin\master\Karen90MmoFramework.Server.Master.dll
+G:\Project ZoSo\bin\master\Karen90MmoFramework.Server.Master.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Master\obj\MMO\Karen90MmoFramework.Server.Master.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Master\obj\MMO\Karen90MmoFramework.Server.Master.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Master\obj\MMO\Karen90MmoFramework.Server.Master.pdb
+F:\project-zoso\bin\master\log4net.config
+F:\project-zoso\bin\master\ServerConfig.config
+F:\project-zoso\bin\master\Karen90MmoFramework.Server.Master.dll
+F:\project-zoso\bin\master\Karen90MmoFramework.Server.Master.pdb
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Master\obj\MMO\Karen90MmoFramework.Server.Master.csprojResolveAssemblyReference.cache
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Master\obj\MMO\Karen90MmoFramework.Server.Master.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Master\obj\MMO\Karen90MmoFramework.Server.Master.pdb

@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A99DC453-0BBB-42A5-B17E-884BF6CA8B3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Karen90MmoFramework</RootNamespace>
+    <AssemblyName>Karen90MmoFramework.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>MMO_DEBUG;USE_PHYSICS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MMO|AnyCPU'">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>MMO_DEBUG;GM_COMMANDS;USE_PHYSICS</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DigitalRune">
+      <HintPath>..\..\..\lib\DigitalRune.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalRune.Geometry">
+      <HintPath>..\..\..\lib\DigitalRune.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalRune.Mathematics">
+      <HintPath>..\..\..\lib\DigitalRune.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalRune.Physics">
+      <HintPath>..\..\..\lib\DigitalRune.Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalRune.Physics.Specialized">
+      <HintPath>..\..\..\lib\DigitalRune.Physics.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="ExitGames.Logging.Log4Net">
+      <HintPath>..\..\..\lib\ExitGames.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>..\..\..\lib\ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>..\..\..\lib\Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces">
+      <HintPath>..\..\..\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Raven.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=37f41c7f99471593, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\lib\Raven.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Raven.Client.Lightweight, Version=2.0.0.0, Culture=neutral, PublicKeyToken=37f41c7f99471593, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\lib\Raven.Client.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Concurrency\ISerialFiber.cs" />
+    <Compile Include="Concurrency\MessageChannel.cs" />
+    <Compile Include="Concurrency\SerialPoolFiber.cs" />
+    <Compile Include="Concurrency\SerialThreadFiber.cs" />
+    <Compile Include="Security\SaltedHash.cs" />
+    <Compile Include="Server\AsyncEvent.cs" />
+    <Compile Include="Server\Chat\ChatSession.cs" />
+    <Compile Include="Server\Chat\IChannel.cs" />
+    <Compile Include="Server\Chat\IListener.cs" />
+    <Compile Include="Server\Chat\IPublisher.cs" />
+    <Compile Include="Server\Chat\ChatSessionState.cs" />
+    <Compile Include="Server\Core\IOutgoingServerPeer.cs" />
+    <Compile Include="Server\Core\Operations\PingResponse.cs" />
+    <Compile Include="Server\Core\OutgoingServerToServerPeer.cs" />
+    <Compile Include="Server\DestroySessionReason.cs" />
+    <Compile Include="Server\Game\AI\AI.cs" />
+    <Compile Include="Server\Game\AI\NpcAggressiveAI.cs" />
+    <Compile Include="Server\Game\AI\NpcAI.cs" />
+    <Compile Include="Server\Game\AI\NpcDefensiveAI.cs" />
+    <Compile Include="Server\Game\AI\NpcGuardAI.cs" />
+    <Compile Include="Server\Chat\ChatSessionCache.cs" />
+    <Compile Include="Server\Game\Systems\Container\ActionbarOperationResult.cs" />
+    <Compile Include="Server\Game\Systems\Container\ISlotView.cs" />
+    <Compile Include="Server\Game\Systems\Group\GroupMemberReference.cs" />
+    <Compile Include="Server\Game\Systems\Loot\EmptyLootContainer.cs" />
+    <Compile Include="Server\Game\Systems\Quest\NpcRequirement.cs" />
+    <Compile Include="Server\Game\Systems\Quest\ItemRequirement.cs" />
+    <Compile Include="Server\Game\Systems\Trade\IMerchant.cs" />
+    <Compile Include="Server\Game\Systems\Stats\AbsorptionCalculator.cs" />
+    <Compile Include="Server\Game\Systems\Stats\ArmorCalculator.cs" />
+    <Compile Include="Server\Game\Systems\Stats\CharacterStatCalculator.cs" />
+    <Compile Include="Server\Game\Systems\Stats\DefaultStatCalculator.cs" />
+    <Compile Include="Server\Game\Systems\Stats\SpellDamageCalculator.cs" />
+    <Compile Include="Server\Game\Systems\Stats\StatsHelper.cs" />
+    <Compile Include="Server\Game\Systems\Stats\WeaponDamageCalculator.cs" />
+    <Compile Include="Server\Game\Systems\Stats\MaxPowerCalculator.cs" />
+    <Compile Include="Server\Game\Systems\Stats\IStatCalculator.cs" />
+    <Compile Include="Server\Game\Systems\Stats\MaxHealthCalculator.cs" />
+    <Compile Include="Server\Game\WorldSessionReference.cs" />
+    <Compile Include="Server\Game\Systems\Group\IGroupMember.cs" />
+    <Compile Include="Server\Game\Systems\Loot\LootRestriction.cs" />
+    <Compile Include="Server\Game\Systems\Loot\FixedLootContainer.cs" />
+    <Compile Include="Server\Game\Systems\Loot\RandomLootContainer.cs" />
+    <Compile Include="Server\IGroupManager.cs" />
+    <Compile Include="Server\MmoSerializer.cs" />
+    <Compile Include="Server\ServerToClient\Events\ActionbarSlotRemoved.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupMemberAddedInactive.cs" />
+    <Compile Include="Server\ServerToClient\Events\InteractionDialogueList.cs" />
+    <Compile Include="Server\ServerToClient\Events\InteractionLootList.cs" />
+    <Compile Include="Server\ServerToClient\Events\InteractionShopList.cs" />
+    <Compile Include="Server\ServerToClient\Events\YouLevelUp.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupInviteDeclined.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectFlagsUnset.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialIgnoreAddedName.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialIgnoreAddedNameMultiple.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialFriendAddedData.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialFriendAddedDataMultiple.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupMemberDisconnected.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupDisbanded.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupInviteCancelled.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupInviteReceived.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupMemberRemoved.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupUninvited.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupMemberUpdate.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupMemberAddedProperties.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupMemberAddedGuid.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupMemberAdded.cs" />
+    <Compile Include="Server\ServerToClient\Events\QuestFinished.cs" />
+    <Compile Include="Server\ServerToClient\Events\QuestProgress.cs" />
+    <Compile Include="Server\ServerToClient\Events\QuestRegress.cs" />
+    <Compile Include="Server\ServerToClient\Events\QuestStarted.cs" />
+    <Compile Include="Server\ServerToClient\Events\LootItemRemoved.cs" />
+    <Compile Include="Server\ServerToClient\Events\LootGoldRemoved.cs" />
+    <Compile Include="Server\ServerToClient\Events\LootClear.cs" />
+    <Compile Include="Server\ServerToClient\Events\SpellRemoved.cs" />
+    <Compile Include="Server\ServerToClient\Events\SpellAdded.cs" />
+    <Compile Include="Server\ServerToClient\Events\SpellCooldownEnd.cs" />
+    <Compile Include="Server\ServerToClient\Events\SpellCooldownBegin.cs" />
+    <Compile Include="Server\ServerToClient\Events\SpellCastEnd.cs" />
+    <Compile Include="Server\ServerToClient\Events\SpellCastBegin.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialFriendAddedName.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialFriendAddedNameMultiple.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialFriendRequestCancelled.cs" />
+    <Compile Include="Server\ServerToClient\Events\InventoryItemRemoved.cs" />
+    <Compile Include="Server\ServerToClient\Events\InventoryItemMoved.cs" />
+    <Compile Include="Server\ServerToClient\Events\InventoryItemAddedMultiple.cs" />
+    <Compile Include="Server\ServerToClient\Events\InventoryItemAdded.cs" />
+    <Compile Include="Server\ServerToClient\Events\QuestManagerInit.cs" />
+    <Compile Include="Server\ServerToClient\Events\ActionbarInit.cs" />
+    <Compile Include="Server\ServerToClient\Events\SpellManagerInit.cs" />
+    <Compile Include="Server\ServerToClient\Events\InventoryInit.cs" />
+    <Compile Include="Server\ServerToClient\Events\InteractionDialogue.cs" />
+    <Compile Include="Server\ServerToClient\Events\InteractionLoot.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialProfileUpdate.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialProfileUpdateMultiple.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialFriendRequestReceived.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialProfileRemoved.cs" />
+    <Compile Include="Server\ServerToClient\Events\SocialProfileStatus.cs" />
+    <Compile Include="Server\ServerToClient\Operations\CloseInteraction.cs" />
+    <Compile Include="Server\ServerToClient\Operations\CastSpell.cs" />
+    <Compile Include="Server\ServerToClient\Operations\AddActionbarSpell.cs" />
+    <Compile Include="Server\ServerToClient\Operations\MoveActionbarSlot.cs" />
+    <Compile Include="Server\ServerToClient\Operations\UseActionbarSlot.cs" />
+    <Compile Include="Server\ServerToClient\Operations\DeleteCharacter.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SellItem.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpKill.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpHeal.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpAddPower.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpRemovePower.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpAddXp.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpAddSpell.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpRemoveSpell.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpAddGold.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpRemoveGold.cs" />
+    <Compile Include="Server\ServerToClient\Operations\MoveInventorySlot.cs" />
+    <Compile Include="Server\ServerToClient\Operations\UseInventorySlot.cs" />
+    <Compile Include="Server\ServerToClient\Operations\AddActionbarItem.cs" />
+    <Compile Include="Server\ServerToClient\Operations\LootItem.cs" />
+    <Compile Include="Server\ServerToClient\Operations\LootGold.cs" />
+    <Compile Include="Server\ServerToClient\Operations\LootAll.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SelectDialogue.cs" />
+    <Compile Include="Server\ServerToClient\Operations\AcceptQuest.cs" />
+    <Compile Include="Server\ServerToClient\Operations\TurnInQuest.cs" />
+    <Compile Include="Server\ServerToClient\Operations\PurchaseItem.cs" />
+    <Compile Include="Server\ServerToClient\Operations\KickGroupMember.cs" />
+    <Compile Include="Server\ServerToClient\Operations\LeaveGroup.cs" />
+    <Compile Include="Server\ServerToClient\Operations\DisbandGroup.cs" />
+    <Compile Include="Server\ServerToClient\Operations\DeclineGroupInvite.cs" />
+    <Compile Include="Server\ServerToClient\Operations\AcceptGroupInvite.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SendGroupInvite.cs" />
+    <Compile Include="Server\ServerToClient\Operations\DeclineFriendRequest.cs" />
+    <Compile Include="Server\ServerToClient\Operations\RemoveFriend.cs" />
+    <Compile Include="Server\ServerToClient\Operations\AcceptFriendRequest.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SendFriendRequestResponse.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SendFriendRequest.cs" />
+    <Compile Include="Server\ServerToServer\Events\GroupMemberOffline.cs" />
+    <Compile Include="Server\ServerToServer\Events\GroupMemberOnline.cs" />
+    <Compile Include="Server\ServerToServer\Events\GroupMemberRemoved.cs" />
+    <Compile Include="Server\ServerToServer\Events\GroupMemberAddedSession.cs" />
+    <Compile Include="Server\ServerToServer\Events\GroupMemberAdded.cs" />
+    <Compile Include="Server\ServerToServer\Events\GroupDisbanded.cs" />
+    <Compile Include="Server\ServerToServer\Events\GroupFormed.cs" />
+    <Compile Include="Server\ServerToServer\Operations\UnregisterWorld.cs" />
+    <Compile Include="Server\ServerToServer\Operations\RegisterWorld.cs" />
+    <Compile Include="Server\ServerToServer\Operations\LeaveWorld.cs" />
+    <Compile Include="Server\Social\DeclineInviteReason.cs" />
+    <Compile Include="Server\Social\IWorld.cs" />
+    <Compile Include="Server\Social\Systems\Group\Group.cs" />
+    <Compile Include="Server\Social\Systems\Group\GroupManager.cs" />
+    <Compile Include="Server\Social\IFriend.cs" />
+    <Compile Include="Server\Social\ProfilePropertyUpdateFlags.cs" />
+    <Compile Include="Server\Social\ServerSocialSettings.cs" />
+    <Compile Include="Server\Social\SocialSessionCache.cs" />
+    <Compile Include="Server\Social\SocialSessionState.cs" />
+    <Compile Include="Server\ISocialManager.cs" />
+    <Compile Include="Server\ServerToClient\Events\ChatChannelLeft.cs" />
+    <Compile Include="Server\ServerToClient\Events\ChatMessageReceived.cs" />
+    <Compile Include="Server\ServerToServer\Operations\UpdateSocialProfile.cs" />
+    <Compile Include="Server\Social\SocialSession.cs" />
+    <Compile Include="Server\Data\SocialProfileData.cs" />
+    <Compile Include="Server\Game\IWorldServer.cs" />
+    <Compile Include="Server\Chat\Channel.cs" />
+    <Compile Include="Server\Chat\MmoChat.cs" />
+    <Compile Include="Server\Chat\ChannelMessage.cs" />
+    <Compile Include="Server\Chat\IChatServer.cs" />
+    <Compile Include="Server\Login\CharacterHelper.cs" />
+    <Compile Include="Server\Login\LoginHelper.cs" />
+    <Compile Include="Server\Social\ISocialServer.cs" />
+    <Compile Include="Server\Social\MmoSocial.cs" />
+    <Compile Include="Server\ISession.cs" />
+    <Compile Include="Server\Game\MmoWorld.cs" />
+    <Compile Include="Server\Game\Physics\Quantum\QuantumCharacterController.cs" />
+    <Compile Include="Server\Game\Physics\Quantum\QuantumHeightField.cs" />
+    <Compile Include="Server\Game\Physics\Quantum\QuantumPhysicsWorld.cs" />
+    <Compile Include="Server\Game\Physics\Quantum\QuantumRigidbody.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RuneCharacterController.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RuneCylinderShape.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RuneCapsuleShape.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RuneSphereShape.cs" />
+    <Compile Include="Server\Game\Physics\Rune\Extensions.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RuneBoxShape.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RuneRigidbody.cs" />
+    <Compile Include="Server\Game\Physics\Rune\IRuneShape.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RuneTriggerVolume.cs" />
+    <Compile Include="Server\Game\GlobalPosition.cs" />
+    <Compile Include="Server\Game\ZoneDescription.cs" />
+    <Compile Include="Server\Game\IRegion.cs" />
+    <Compile Include="Server\Game\Physics\CollisionHelper.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RuneHeightField.cs" />
+    <Compile Include="Server\Game\Physics\Rune\RunePhysicsWorld.cs" />
+    <Compile Include="Server\Game\Objects\Dynamic.cs" />
+    <Compile Include="Server\Game\MmoObjectFlags.cs" />
+    <Compile Include="Server\Game\Systems\Group\GroupMemberPropertyFlags.cs" />
+    <Compile Include="Server\Game\Systems\Spell\SpellAffectionMethod.cs" />
+    <Compile Include="Server\Game\Systems\Spell\SpellFlags.cs" />
+    <Compile Include="Server\Config\ServerConfig.cs" />
+    <Compile Include="Server\Config\GameConfig.cs" />
+    <Compile Include="Server\Core\SubServerApplication.cs" />
+    <Compile Include="Server\Core\OutgoingMasterServerPeer.cs" />
+    <Compile Include="Database\IDataFieldObject.cs" />
+    <Compile Include="Database\IDataField.cs" />
+    <Compile Include="Server\Game\Systems\Quest\QuestFlags.cs" />
+    <Compile Include="Server\Game\Systems\Spell\SpellEffects.cs" />
+    <Compile Include="Server\Game\GameObjectAutoSubscription.cs" />
+    <Compile Include="Server\Game\GridZone.cs" />
+    <Compile Include="Server\Game\InterestArea.cs" />
+    <Compile Include="Server\Game\Messages\AggroSnapshotRequest.cs" />
+    <Compile Include="Server\Game\Messages\MessageCounters.cs" />
+    <Compile Include="Server\Game\Messages\MmoObjectDisposedMessage.cs" />
+    <Compile Include="Server\Game\Messages\MmoObjectEventMessage.cs" />
+    <Compile Include="Server\Game\Messages\MmoObjectPositionMessage.cs" />
+    <Compile Include="Server\Game\Messages\MmoObjectSnapshot.cs" />
+    <Compile Include="Server\Game\Messages\MmoObjectSnapshotRequest.cs" />
+    <Compile Include="Server\Game\Messages\RegionMessage.cs" />
+    <Compile Include="Server\Game\WorldSession.cs" />
+    <Compile Include="Server\Game\Region.cs" />
+    <Compile Include="Server\Data\ActionBarData.cs" />
+    <Compile Include="Server\Data\InventoryData.cs" />
+    <Compile Include="Server\Data\SpellsData.cs" />
+    <Compile Include="Server\Data\AuraData.cs" />
+    <Compile Include="Server\Data\BuffData.cs" />
+    <Compile Include="Server\Data\CharacterData.cs" />
+    <Compile Include="Server\Data\MmoItemData.cs" />
+    <Compile Include="Server\Data\GameObjectData.cs" />
+    <Compile Include="Server\Data\GroupData.cs" />
+    <Compile Include="Server\Data\LootGroupData.cs" />
+    <Compile Include="Server\Data\NpcData.cs" />
+    <Compile Include="Server\Data\PlayerData.cs" />
+    <Compile Include="Server\Data\QuestData.cs" />
+    <Compile Include="Server\Data\SpellData.cs" />
+    <Compile Include="Server\Data\UserData.cs" />
+    <Compile Include="Server\Game\Extensions.cs" />
+    <Compile Include="Server\Game\ServerGameSettings.cs" />
+    <Compile Include="Server\Game\Objects\Player.cs" />
+    <Compile Include="Server\Game\Objects\Character.cs" />
+    <Compile Include="Server\Game\Objects\Gameobject.cs" />
+    <Compile Include="Server\Game\Objects\Npc.cs" />
+    <Compile Include="Server\Game\Objects\MmoObject.cs" />
+    <Compile Include="Server\Game\MmoPlayerCamera.cs" />
+    <Compile Include="Server\Game\MmoZone.cs" />
+    <Compile Include="Server\PeerSettings.cs" />
+    <Compile Include="Server\Game\WorldSessionCache.cs" />
+    <Compile Include="Server\Game\Systems\Combat\AggroState.cs" />
+    <Compile Include="Server\Game\Systems\Combat\IEngager.cs" />
+    <Compile Include="Server\Game\Systems\Group\Group.cs" />
+    <Compile Include="Server\Game\Systems\Group\GroupManager.cs" />
+    <Compile Include="Server\Game\Systems\Container\Actionbar.cs" />
+    <Compile Include="Server\Game\Systems\Container\InventoryOperationResult.cs" />
+    <Compile Include="Server\Game\Systems\Container\Inventory.cs" />
+    <Compile Include="Server\Game\Systems\Loot\ILoot.cs" />
+    <Compile Include="Server\Game\Systems\Loot\ILootContainer.cs" />
+    <Compile Include="Server\Game\Systems\Loot\LootItem.cs" />
+    <Compile Include="Server\Game\Systems\Quest\QuestProgression.cs" />
+    <Compile Include="Server\Game\Systems\Quest\QuestHelper.cs" />
+    <Compile Include="Server\Game\Systems\Spell\ISpellController.cs" />
+    <Compile Include="Server\Game\Systems\Spell\Spell.cs" />
+    <Compile Include="Server\Game\Systems\Spell\SpellEffectsHandlers.cs" />
+    <Compile Include="Server\Game\Systems\Spell\SpellManager.cs" />
+    <Compile Include="Server\Game\Messages\SocialStatusChangedMessage.cs" />
+    <Compile Include="Server\Game\Items\IStackable.cs" />
+    <Compile Include="Server\Game\Items\IMmoItem.cs" />
+    <Compile Include="Server\Game\Items\MmoItem.cs" />
+    <Compile Include="Server\Game\WorldDescription.cs" />
+    <Compile Include="Server\Game\WorldItemCache.cs" />
+    <Compile Include="Server\Game\WorldObjectCache.cs" />
+    <Compile Include="Server\IChatManager.cs" />
+    <Compile Include="Database\IDatabase.cs" />
+    <Compile Include="Server\IServer.cs" />
+    <Compile Include="Server\IClock.cs" />
+    <Compile Include="Server\Game\ExitWorldReason.cs" />
+    <Compile Include="Server\ServerToClient\Operations\EnterWorldResponse.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectTransform.cs" />
+    <Compile Include="Server\ServerToClient\GameEvent.cs" />
+    <Compile Include="Server\ServerToClient\GameOperationRequest.cs" />
+    <Compile Include="Server\ServerToClient\GameOperationResponse.cs" />
+    <Compile Include="Server\ServerToClient\Events\ChatChannelJoined.cs" />
+    <Compile Include="Server\ServerToClient\Events\GroupInit.cs" />
+    <Compile Include="Server\ServerToClient\Events\InteractionShop.cs" />
+    <Compile Include="Server\ServerToClient\Events\LootInit.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectDestroyed.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectFlagsSet.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectMovement.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectPropertyMultiple.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectSubscribed.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectUnsubscribed.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectLevelUp.cs" />
+    <Compile Include="Server\ServerToClient\Events\ObjectProperty.cs" />
+    <Compile Include="Server\ServerToClient\Events\QuestGiverStatus.cs" />
+    <Compile Include="Server\ServerToClient\GameOperation.cs" />
+    <Compile Include="Server\MessageParameters.cs" />
+    <Compile Include="Server\ServerToClient\Operations\EnterWorld.cs" />
+    <Compile Include="Server\ServerToClient\Operations\LogoutCharacter.cs" />
+    <Compile Include="Server\ServerToClient\Operations\LoginCharacter.cs" />
+    <Compile Include="Server\ServerToClient\Operations\LogoutUser.cs" />
+    <Compile Include="Server\ServerToClient\Operations\Rotate.cs" />
+    <Compile Include="Server\ServerToClient\Operations\CreateCharacterResponse.cs" />
+    <Compile Include="Server\ServerToClient\Operations\GameErrorResponse.cs" />
+    <Compile Include="Server\ServerToClient\Operations\RetrieveCharactersResponse.cs" />
+    <Compile Include="Server\ServerToClient\Operations\CreateCharacter.cs" />
+    <Compile Include="Server\ServerToClient\Operations\CreateUser.cs" />
+    <Compile Include="Server\ServerToClient\Operations\GetProperties.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SpDamage.cs" />
+    <Compile Include="Server\ServerToClient\Operations\Interact.cs" />
+    <Compile Include="Server\ServerToClient\Operations\LoginUser.cs" />
+    <Compile Include="Server\ServerToClient\Operations\Move.cs" />
+    <Compile Include="Server\ServerToClient\Operations\RetrieveCharacters.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SendChat.cs" />
+    <Compile Include="Server\ServerToClient\Operations\SendChatResponse.cs" />
+    <Compile Include="Server\ServerToServer\Operations\JoinWorld.cs" />
+    <Compile Include="Server\ServerToServer\Operations\KillSession.cs" />
+    <Compile Include="Server\ServerToServer\Operations\AckClientPlayerEnterWorld.cs" />
+    <Compile Include="Server\ServerType.cs" />
+    <Compile Include="Server\ServerToServer\ServerEventCode.cs" />
+    <Compile Include="Server\ServerToServer\ServerOperationCode.cs" />
+    <Compile Include="Server\Game\WorldSessionState.cs" />
+    <Compile Include="Server\Social\Systems\Group\IGroupMember.cs" />
+    <Compile Include="Server\SubServerType.cs" />
+    <Compile Include="Server\ServerToServer\Events\AddSession.cs" />
+    <Compile Include="Server\ServerToServer\Events\RemoveSession.cs" />
+    <Compile Include="Server\ServerToServer\Operations\AckClientUserLogin.cs" />
+    <Compile Include="Server\ServerToServer\Operations\TransferSession.cs" />
+    <Compile Include="Server\ServerToServer\Operations\KillClient.cs" />
+    <Compile Include="Server\ServerToServer\Operations\CreateChannel.cs" />
+    <Compile Include="Server\ServerToServer\Operations\CreateChannelResponse.cs" />
+    <Compile Include="Server\ServerToServer\Operations\AcquireServer.cs" />
+    <Compile Include="Server\ServerToServer\Operations\AcquireServerResponse.cs" />
+    <Compile Include="Server\ServerToServer\Operations\JoinChannel.cs" />
+    <Compile Include="Server\ServerToServer\Operations\LeaveChannel.cs" />
+    <Compile Include="Server\ServerToServer\Operations\RegisterServer.cs" />
+    <Compile Include="Server\ServerToServer\Operations\RemoveChannel.cs" />
+    <Compile Include="Server\ServerSettings.cs" />
+    <Compile Include="Database\IDataObject.cs" />
+    <Compile Include="Server\IGameOperationHandler.cs" />
+    <Compile Include="Server\IPeer.cs" />
+    <Compile Include="Database\DatabaseFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\ServerToServer\Operations\AckClientCharacterLogin.cs" />
+    <Compile Include="Server\TypeSerializer.cs" />
+    <Compile Include="Server\UpdateEvent.cs" />
+    <Compile Include="Server\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Karen90MmoFramework\Karen90MmoFramework.csproj">
+      <Project>{A930D2DB-B921-4F79-B584-39F57257B642}</Project>
+      <Name>Karen90MmoFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

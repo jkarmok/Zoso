@@ -1,0 +1,25 @@
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Zone\obj\MMO\Karen90MmoFramework.Server.World.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Zone\obj\MMO\Karen90MmoFramework.Server.World.pdb
+G:\Project ZoSo\bin\world\Resources\world0.map
+G:\Project ZoSo\bin\world\Resources\zone1.colliders.xml
+G:\Project ZoSo\bin\world\Resources\zone2.colliders.xml
+G:\Project ZoSo\bin\world\Resources\zone3.colliders.xml
+G:\Project ZoSo\bin\world\Resources\zone4.colliders.xml
+G:\Project ZoSo\bin\world\GameConfig.config
+G:\Project ZoSo\bin\world\log4net.config
+G:\Project ZoSo\bin\world\Karen90MmoFramework.Server.World.dll
+G:\Project ZoSo\bin\world\Karen90MmoFramework.Server.World.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.World\obj\MMO\Karen90MmoFramework.Server.World.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.World\obj\MMO\Karen90MmoFramework.Server.World.pdb
+F:\project-zoso\bin\world\Resources\world0.map
+F:\project-zoso\bin\world\Resources\zone1.colliders.xml
+F:\project-zoso\bin\world\Resources\zone2.colliders.xml
+F:\project-zoso\bin\world\Resources\zone3.colliders.xml
+F:\project-zoso\bin\world\Resources\zone4.colliders.xml
+F:\project-zoso\bin\world\GameConfig.config
+F:\project-zoso\bin\world\log4net.config
+F:\project-zoso\bin\world\Karen90MmoFramework.Server.World.dll
+F:\project-zoso\bin\world\Karen90MmoFramework.Server.World.pdb
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.World\obj\MMO\Karen90MmoFramework.Server.World.csprojResolveAssemblyReference.cache
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.World\obj\MMO\Karen90MmoFramework.Server.World.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.World\obj\MMO\Karen90MmoFramework.Server.World.pdb

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BDD7D51-1D20-4002-8770-57652CCC4BF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Karen90MmoFramework.Editor</RootNamespace>
+    <AssemblyName>Karen90MmoFramework.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Raven.Client.Lightweight, Version=2.0.0.0, Culture=neutral, PublicKeyToken=37f41c7f99471593, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\lib\Raven.Client.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuraControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AuraControl.Designer.cs">
+      <DependentUpon>AuraControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameObjectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameObjectControl.Designer.cs">
+      <DependentUpon>GameObjectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LootsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LootsControl.Designer.cs">
+      <DependentUpon>LootsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuestControls.Designer.cs">
+      <DependentUpon>QuestControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpellControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SpellControls.Designer.cs">
+      <DependentUpon>SpellControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmItemsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemsWindow.Designer.cs">
+      <DependentUpon>frmItemsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IGameDataHandler.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="MainApp.cs" />
+    <Compile Include="MmoItemsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MmoItemsControl.Designer.cs">
+      <DependentUpon>MmoItemsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NpcControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NpcControl.Designer.cs">
+      <DependentUpon>NpcControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AuraControl.resx">
+      <DependentUpon>AuraControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameObjectControl.resx">
+      <DependentUpon>GameObjectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LootsControl.resx">
+      <DependentUpon>LootsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestControls.resx">
+      <DependentUpon>QuestControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellControls.resx">
+      <DependentUpon>SpellControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItemsWindow.resx">
+      <DependentUpon>frmItemsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MmoItemsControl.resx">
+      <DependentUpon>MmoItemsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NpcControl.resx">
+      <DependentUpon>NpcControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Karen90MmoFramework\Karen90MmoFramework.csproj">
+      <Project>{a930d2db-b921-4f79-b584-39f57257b642}</Project>
+      <Name>Karen90MmoFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Karen90MmoFramework.Server\Karen90MmoFramework.Server.csproj">
+      <Project>{a99dc453-0bbb-42a5-b17e-884bf6ca8b3c}</Project>
+      <Name>Karen90MmoFramework.Server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

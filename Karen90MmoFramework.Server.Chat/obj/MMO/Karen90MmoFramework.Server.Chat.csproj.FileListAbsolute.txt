@@ -1,0 +1,12 @@
+G:\Project ZoSo\bin\chat\log4net.config
+G:\Project ZoSo\bin\chat\ServerConfig.config
+G:\Project ZoSo\bin\chat\Karen90MmoFramework.Server.Chat.dll
+G:\Project ZoSo\bin\chat\Karen90MmoFramework.Server.Chat.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.pdb
+F:\project-zoso\bin\chat\log4net.config
+F:\project-zoso\bin\chat\ServerConfig.config
+F:\project-zoso\bin\chat\Karen90MmoFramework.Server.Chat.dll
+F:\project-zoso\bin\chat\Karen90MmoFramework.Server.Chat.pdb
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.pdb

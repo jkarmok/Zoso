@@ -1,0 +1,67 @@
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.Properties.Resources.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Abstractions.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Client.Lightweight.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Client.Lightweight.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Abstractions.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Abstractions.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Photon.SocketServer.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\ExitGamesLibs.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\ExitGames.Logging.Log4Net.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\log4net.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90MmoFramework.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Photon.SocketServer.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Photon.SocketServer.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\ExitGamesLibs.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\ExitGamesLibs.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\ExitGames.Logging.Log4Net.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\ExitGames.Logging.Log4Net.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90 Database Editor.exe.config
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90 Database Editor.exe
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90 Database Editor.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90 Database Editor.exe
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90 Database Editor.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.MmoItemsControl.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.NpcControl.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.frmItemsWindow.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.AuraControl.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.SpellControls.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.QuestControls.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90MmoFramework.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.LootsControl.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.frmMain.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.GameObjectControl.resources
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Client.Lightweight.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90 Database Editor.exe.config
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90 Database Editor.exe
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90 Database Editor.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90 Database Editor.exe
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90 Database Editor.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.AuraControl.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.GameObjectControl.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.LootsControl.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.QuestControls.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.SpellControls.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.frmMain.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.frmItemsWindow.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.MmoItemsControl.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.NpcControl.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.Properties.Resources.resources
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.csproj.GenerateResource.Cache
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\obj\x86\Debug\Karen90MmoFramework.DatabaseEditor.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90MmoFramework.Base.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90MmoFramework.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Photon.SocketServer.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\ExitGamesLibs.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Abstractions.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\ExitGames.Logging.Log4Net.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\log4net.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90MmoFramework.Base.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Karen90MmoFramework.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Client.Lightweight.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Client.Lightweight.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Client.Lightweight.xml
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Abstractions.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.DatabaseEditor\bin\Debug\Raven.Abstractions.xml

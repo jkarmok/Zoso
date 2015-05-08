@@ -1,0 +1,13 @@
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Core\obj\MMO\Karen90MmoFramework.Server.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Core\obj\MMO\Karen90MmoFramework.Server.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Core\obj\MMO\Karen90MmoFramework.Server.pdb
+G:\Project ZoSo\bin\Karen90MmoFramework.Server.dll
+G:\Project ZoSo\bin\Karen90MmoFramework.Server.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server\obj\MMO\Karen90MmoFramework.Server.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server\obj\MMO\Karen90MmoFramework.Server.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server\obj\MMO\Karen90MmoFramework.Server.pdb
+F:\project-zoso\bin\Karen90MmoFramework.Server.dll
+F:\project-zoso\bin\Karen90MmoFramework.Server.pdb
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server\obj\MMO\Karen90MmoFramework.Server.csprojResolveAssemblyReference.cache
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server\obj\MMO\Karen90MmoFramework.Server.dll
+F:\project-zoso\server\photon_server\Karen90MmoFramework.Server\obj\MMO\Karen90MmoFramework.Server.pdb

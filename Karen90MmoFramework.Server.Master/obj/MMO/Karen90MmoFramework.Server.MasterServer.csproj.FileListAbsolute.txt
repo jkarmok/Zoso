@@ -1,0 +1,7 @@
+G:\Project ZoSo\bin\master\log4net.config
+G:\Project ZoSo\bin\master\ServerConfig.config
+G:\Project ZoSo\bin\master\Karen90MmoFramework.Server.MasterServer.dll
+G:\Project ZoSo\bin\master\Karen90MmoFramework.Server.MasterServer.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.MasterServer\obj\MMO\Karen90MmoFramework.Server.MasterServer.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.MasterServer\obj\MMO\Karen90MmoFramework.Server.MasterServer.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.MasterServer\obj\MMO\Karen90MmoFramework.Server.MasterServer.pdb

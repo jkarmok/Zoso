@@ -1,0 +1,42 @@
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\log4net.config
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\ServerConfig.config
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Karen90MmoFramework.Server.MasterServer.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Karen90MmoFramework.Server.MasterServer.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\ExitGames.Logging.Log4Net.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\ExitGamesLibs.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Karen90MmoFramework.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\log4net.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Photon.SocketServer.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Raven.Client.Lightweight.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Raven.Abstractions.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Karen90MmoFramework.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\ExitGames.Logging.Log4Net.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\ExitGames.Logging.Log4Net.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\ExitGamesLibs.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\ExitGamesLibs.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Photon.SocketServer.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Photon.SocketServer.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Raven.Client.Lightweight.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Raven.Client.Lightweight.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Raven.Abstractions.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\bin\Debug\Raven.Abstractions.xml
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Master\bin\log4net.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Master\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Master\bin\Karen90MmoFramework.Server.MasterServer.dll
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Master\bin\Karen90MmoFramework.Server.MasterServer.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.csprojResolveAssemblyReference.cache
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.csprojResolveAssemblyReference.cache
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.pdb
+D:\Unity Projects\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.csprojResolveAssemblyReference.cache
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.dll
+C:\Users\strid_000\Desktop\Photon\deploy\Karen90Mmo\Master\bin\log4net.config
+C:\Users\strid_000\Desktop\Photon\deploy\Karen90Mmo\Master\bin\ServerConfig.config
+C:\Users\strid_000\Desktop\Photon\deploy\Karen90Mmo\Master\bin\Karen90MmoFramework.Server.MasterServer.dll
+C:\Users\strid_000\Desktop\Photon\deploy\Karen90Mmo\Master\bin\Karen90MmoFramework.Server.MasterServer.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.Server.MasterServer\obj\Debug\Karen90MmoFramework.Server.MasterServer.pdb

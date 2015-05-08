@@ -1,0 +1,12 @@
+G:\Project ZoSo\bin\zone\Resources\world0.map
+G:\Project ZoSo\bin\zone\Resources\zone1.colliders.xml
+G:\Project ZoSo\bin\zone\Resources\zone2.colliders.xml
+G:\Project ZoSo\bin\zone\Resources\zone3.colliders.xml
+G:\Project ZoSo\bin\zone\Resources\zone4.colliders.xml
+G:\Project ZoSo\bin\zone\log4net.config
+G:\Project ZoSo\bin\zone\Karen90MmoFramework.Server.Zone.dll
+G:\Project ZoSo\bin\zone\Karen90MmoFramework.Server.Zone.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Zone\obj\MMO\Karen90MmoFramework.Server.Zone.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Zone\obj\MMO\Karen90MmoFramework.Server.Zone.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Zone\obj\MMO\Karen90MmoFramework.Server.Zone.pdb
+G:\Project ZoSo\bin\zone\GameConfig.config

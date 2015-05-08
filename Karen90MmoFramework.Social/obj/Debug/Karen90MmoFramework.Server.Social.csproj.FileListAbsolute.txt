@@ -1,0 +1,6 @@
+G:\Project ZoSo\bin\social\log4net.config
+G:\Project ZoSo\bin\social\Karen90MmoFramework.Server.Social.dll
+G:\Project ZoSo\bin\social\Karen90MmoFramework.Server.Social.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\obj\Debug\Karen90MmoFramework.Server.Social.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\obj\Debug\Karen90MmoFramework.Server.Social.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Social\obj\Debug\Karen90MmoFramework.Server.Social.csprojResolveAssemblyReference.cache

@@ -1,0 +1,85 @@
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\log4net.config
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ServerConfig.config
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.Server.Chat.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.Server.Chat.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGames.Logging.Log4Net.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGamesLibs.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Photon.SocketServer.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Client.Lightweight.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Abstractions.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\log4net.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGames.Logging.Log4Net.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGames.Logging.Log4Net.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGamesLibs.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGamesLibs.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Photon.SocketServer.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Photon.SocketServer.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Client.Lightweight.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Client.Lightweight.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Abstractions.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Abstractions.xml
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\log4net.config
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ServerConfig.config
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.Server.Chat.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.Server.Chat.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Client.Lightweight.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Abstractions.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\log4net.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGames.Logging.Log4Net.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGames.Logging.Log4Net.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGamesLibs.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGamesLibs.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Photon.SocketServer.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Photon.SocketServer.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Client.Lightweight.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Client.Lightweight.xml
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Abstractions.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Abstractions.xml
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\log4net.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\Karen90MmoFramework.Server.Chat.dll
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\Karen90MmoFramework.Server.Chat.pdb
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\log4net.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\Karen90MmoFramework.Server.Chat.dll
+C:\Users\Praveen\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\Karen90MmoFramework.Server.Chat.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.dll
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.pdb
+D:\Unity Projects\MmoFramework\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.csprojResolveAssemblyReference.cache
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.csprojResolveAssemblyReference.cache
+C:\Users\strid_000\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\log4net.config
+C:\Users\strid_000\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\ServerConfig.config
+C:\Users\strid_000\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\Karen90MmoFramework.Server.Chat.dll
+C:\Users\strid_000\Desktop\Photon\deploy\Karen90Mmo\Chat\bin\Karen90MmoFramework.Server.Chat.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\log4net.config
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\ServerConfig.config
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.Server.Chat.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.Server.Chat.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGames.Logging.Log4Net.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\ExitGamesLibs.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.Server.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\log4net.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Photon.SocketServer.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\DigitalRune.Physics.Specialized.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\DigitalRune.Geometry.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\DigitalRune.Physics.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\DigitalRune.Mathematics.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Client.Lightweight.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Raven.Abstractions.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\DigitalRune.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\bin\Debug\Karen90MmoFramework.Server.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Server.Chat\obj\Debug\Karen90MmoFramework.Server.Chat.csprojResolveAssemblyReference.cache

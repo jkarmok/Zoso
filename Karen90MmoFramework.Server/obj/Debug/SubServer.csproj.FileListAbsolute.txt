@@ -1,0 +1,6 @@
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\SubServer\bin\ServerConfig.config
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\SubServer\bin\SubServer.dll
+C:\Users\Praveen\Desktop\Photon v3-0-19\deploy\Karen90Mmo\SubServer\bin\SubServer.pdb
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\SubServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\SubServer\obj\Debug\SubServer.dll
+C:\Users\Praveen\Documents\Visual Studio 2010\Projects\MmoFramework\SubServer\obj\Debug\SubServer.pdb

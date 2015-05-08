@@ -1,0 +1,10 @@
+D:\ProjectKarenNineO\server\client\unity_client\assets\plugins\Karen90MmoFramework.Base.dll
+D:\ProjectKarenNineO\server\client\unity_client\assets\plugins\Karen90MmoFramework.Base.pdb
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework.Base\obj\Debug\Karen90MmoFramework.Base.dll
+D:\ProjectKarenNineO\server\MmoFramework_Model1\Karen90MmoFramework.Base\obj\Debug\Karen90MmoFramework.Base.pdb
+D:\ProjectKarenNineO\client\unity_client\assets\plugins\Karen90MmoFramework.Base.dll
+D:\ProjectKarenNineO\client\unity_client\assets\plugins\Karen90MmoFramework.Base.pdb
+G:\Project ZoSo\client\unity_client\assets\plugins\Karen90MmoFramework.Base.dll
+G:\Project ZoSo\client\unity_client\assets\plugins\Karen90MmoFramework.Base.pdb
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.Base\obj\Debug\Karen90MmoFramework.Base.dll
+G:\Project ZoSo\server\MmoFramework_Model1\Karen90MmoFramework.Base\obj\Debug\Karen90MmoFramework.Base.pdb

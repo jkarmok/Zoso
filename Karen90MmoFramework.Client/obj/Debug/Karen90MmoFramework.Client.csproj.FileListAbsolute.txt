@@ -1,0 +1,7 @@
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Client\bin\Debug\Karen90MmoFramework.Client.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Client\bin\Debug\Karen90MmoFramework.Client.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Client\bin\Debug\Karen90MmoFramework.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Client\bin\Debug\Karen90MmoFramework.pdb
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Client\obj\Debug\Karen90MmoFramework.Client.csprojResolveAssemblyReference.cache
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Client\obj\Debug\Karen90MmoFramework.Client.dll
+G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Client\obj\Debug\Karen90MmoFramework.Client.pdb
