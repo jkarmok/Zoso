@@ -10,7 +10,7 @@ using Karen90MmoFramework.Server.ServerToServer.Operations;
 
 namespace Karen90MmoFramework.Server.Chat
 {
-	public sealed class IncomingChatListenerPeer : PeerBase
+	public sealed class IncomingChatListenerPeer : ClientPeer
 	{
 		#region Constants and Fields
 
@@ -44,7 +44,7 @@ namespace Karen90MmoFramework.Server.Chat
 		/// <param name="initRequest"></param>
 		/// <param name="application"> </param>
 		public IncomingChatListenerPeer(InitRequest initRequest, ChatApplication application)
-			: base(initRequest.Protocol, initRequest.PhotonPeer)
+			: base(initRequest)
 		{
 			this.application = application;
 			this.chat = MmoChat.Instance;

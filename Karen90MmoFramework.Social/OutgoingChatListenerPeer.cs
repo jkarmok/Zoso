@@ -40,7 +40,7 @@ namespace Karen90MmoFramework.Server.Social
 		/// <summary>
 		/// the chat server peer
 		/// </summary>
-		private ServerPeerBase outgoingServerPeer;
+		private S2SPeerBase outgoingServerPeer;
 
 		/// <summary>
 		/// the listener state
@@ -248,7 +248,7 @@ namespace Karen90MmoFramework.Server.Social
 
 		#region Implementation of IOutgoingServerPeerHandler
 
-		void IOutgoingServerPeer.OnConnect(ServerPeerBase connectedServerPeer)
+		void IOutgoingServerPeer.OnConnect(S2SPeerBase connectedServerPeer)
 		{
 			Interlocked.CompareExchange(ref this.outgoingServerPeer, connectedServerPeer, null);
 
@@ -262,7 +262,7 @@ namespace Karen90MmoFramework.Server.Social
 			}
 		}
 
-		void IOutgoingServerPeer.OnDisconnect(ServerPeerBase disconnectedServerPeer)
+		void IOutgoingServerPeer.OnDisconnect(S2SPeerBase disconnectedServerPeer)
 		{
 			this.ListenerState = ListenerState.Disconnected;
 			Interlocked.CompareExchange(ref this.outgoingServerPeer, null, disconnectedServerPeer);

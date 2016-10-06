@@ -4,6 +4,7 @@ using Raven.Client.Document;
 using Raven.Client;
 using Raven.Client.Linq;
 using Raven.Abstractions.Data;
+using Raven.Abstractions.Replication;
 
 namespace Karen90MmoFramework.Database
 {
@@ -144,13 +145,14 @@ namespace Karen90MmoFramework.Database
 			store.DatabaseCommands.Delete(id, null);
 		}
 
+		/*
 		/// <summary>
 		/// Deletes any entity with the specified Id
 		/// </summary>
 		public async Task DeleteAsync(string id)
 		{
 			await store.AsyncDatabaseCommands.DeleteDocumentAsync(id);
-		}
+		}*/
 
 		/// <summary>
 		/// Returns the query for a specific type

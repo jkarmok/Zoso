@@ -12,7 +12,7 @@ using Karen90MmoFramework.Server.ServerToServer.Events;
 
 namespace Karen90MmoFramework.Server.Master
 {
-	public class MasterClientPeer : PeerBase
+	public class MasterClientPeer : ClientPeer
 	{
 		#region Constants and Fields
 
@@ -122,7 +122,7 @@ namespace Karen90MmoFramework.Server.Master
 		#region Constructors and Destructors
 
 		public MasterClientPeer(InitRequest initRequest, MasterApplication application)
-			: base(initRequest.Protocol, initRequest.PhotonPeer)
+			: base(initRequest)
 		{
 			this.application = application;
 			this.clientId = Utils.NewGuidInt32();
@@ -207,7 +207,7 @@ namespace Karen90MmoFramework.Server.Master
 			}
 
 			if (response != null)
-				this.SendOperationResponse(response, new SendParameters());
+				this.SendOperationResponse(response, new SendParameters{Encrypted = false});
 		}
 
 		protected override void OnDisconnect(DisconnectReason reasonCode, string reasonDetail)

@@ -18,23 +18,14 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug</OutputPath>
+    <OutputPath>..\bin\Debug\chat</OutputPath>
     <DefineConstants>MMO_DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MMO|AnyCPU'">
-    <OutputPath>..\..\..\bin\chat\</OutputPath>
+    <OutputPath>..\bin\Release\chat\</OutputPath>
     <DefineConstants>MMO_DEBUG</DefineConstants>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
@@ -47,14 +38,14 @@
   <ItemGroup>
     <Reference Include="ExitGamesLibs, Version=0.9.9.5, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\lib\ExitGamesLibs.dll</HintPath>
+      <HintPath>..\lib\ExitGamesLibs.dll</HintPath>
     </Reference>
     <Reference Include="Photon.SocketServer, Version=3.2.8.4222, Culture=neutral, PublicKeyToken=48c2fa3b6988090e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\lib\Photon.SocketServer.dll</HintPath>
+      <HintPath>..\lib\Photon.SocketServer.dll</HintPath>
     </Reference>
     <Reference Include="PhotonHostRuntimeInterfaces">
-      <HintPath>..\..\..\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
+      <HintPath>..\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
@@ -86,14 +77,4 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir)*" "F:\photon\deploy\ProjectZoSo\Chat\bin" /c/y</PostBuildEvent>
-  </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

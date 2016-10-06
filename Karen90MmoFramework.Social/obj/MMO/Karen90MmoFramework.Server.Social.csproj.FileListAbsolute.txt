@@ -1,0 +1,6 @@
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Social\obj\MMO\Karen90MmoFramework.Server.Social.csprojResolveAssemblyReference.cache
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\social\log4net.config
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\social\Karen90MmoFramework.Server.Social.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\social\Karen90MmoFramework.Server.Social.pdb
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Social\obj\MMO\Karen90MmoFramework.Server.Social.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Social\obj\MMO\Karen90MmoFramework.Server.Social.pdb

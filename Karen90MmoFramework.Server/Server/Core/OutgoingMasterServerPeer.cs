@@ -17,7 +17,7 @@ using Karen90MmoFramework.Server.ServerToServer.Operations;
 
 namespace Karen90MmoFramework.Server.Core
 {
-	public abstract class OutgoingMasterServerPeer : ServerPeerBase
+	public abstract class OutgoingMasterServerPeer : S2SPeerBase
 	{
 		#region Constants and Fields
 
@@ -82,7 +82,7 @@ namespace Karen90MmoFramework.Server.Core
 		/// Creates a new outgoing master server peer used to talk with the master
 		/// </summary>
 		protected OutgoingMasterServerPeer(InitResponse initResponse, SubServerApplication application)
-			: base(initResponse.Protocol, initResponse.PhotonPeer)
+			: base(initResponse)
 		{
 			this.application = application;
 			this.__unmanagedPeer__ = initResponse.PhotonPeer;
@@ -208,7 +208,7 @@ namespace Karen90MmoFramework.Server.Core
 
 		#endregion
 
-		#region ServerPeerBase Overrides
+		#region OutboundS2SPeer Overrides
 
 		/// <summary>
 		/// Called when an event has been received from the master server

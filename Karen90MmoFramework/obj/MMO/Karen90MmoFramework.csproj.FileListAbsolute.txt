@@ -1,10 +1,6 @@
-G:\Project ZoSo\bin\Karen90MmoFramework.dll
-G:\Project ZoSo\bin\Karen90MmoFramework.pdb
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\MMO\Karen90MmoFramework.dll
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\MMO\Karen90MmoFramework.pdb
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\MMO\Karen90MmoFramework.csprojResolveAssemblyReference.cache
-F:\project-zoso\bin\Karen90MmoFramework.dll
-F:\project-zoso\bin\Karen90MmoFramework.pdb
-F:\project-zoso\server\photon_server\Karen90MmoFramework\obj\MMO\Karen90MmoFramework.dll
-F:\project-zoso\server\photon_server\Karen90MmoFramework\obj\MMO\Karen90MmoFramework.pdb
-F:\project-zoso\server\photon_server\Karen90MmoFramework\obj\MMO\Karen90MmoFramework.csprojResolveAssemblyReference.cache
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Karen90MmoFramework.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Karen90MmoFramework.pdb
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\Karen90MmoFramework.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\Karen90MmoFramework.pdb
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework\obj\MMO\Karen90MmoFramework.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework\obj\MMO\Karen90MmoFramework.pdb

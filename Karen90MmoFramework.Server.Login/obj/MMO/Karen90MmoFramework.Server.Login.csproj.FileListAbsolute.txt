@@ -12,3 +12,10 @@ F:\project-zoso\bin\login\Karen90MmoFramework.Server.Login.pdb
 F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Login\obj\MMO\Karen90MmoFramework.Server.Login.csprojResolveAssemblyReference.cache
 F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Login\obj\MMO\Karen90MmoFramework.Server.Login.dll
 F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Login\obj\MMO\Karen90MmoFramework.Server.Login.pdb
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\login\log4net.config
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\login\ServerConfig.config
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\login\Karen90MmoFramework.Server.Login.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\login\Karen90MmoFramework.Server.Login.pdb
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Server.Login\obj\MMO\Karen90MmoFramework.Server.Login.csprojResolveAssemblyReference.cache
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Server.Login\obj\MMO\Karen90MmoFramework.Server.Login.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Server.Login\obj\MMO\Karen90MmoFramework.Server.Login.pdb

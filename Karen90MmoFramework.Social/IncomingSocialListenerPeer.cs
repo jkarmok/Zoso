@@ -11,7 +11,7 @@ using Karen90MmoFramework.Server.ServerToServer.Events;
 
 namespace Karen90MmoFramework.Server.Social
 {
-	public sealed class IncomingSocialListenerPeer : PeerBase, IWorld, IGroupManager
+	public sealed class IncomingSocialListenerPeer : ClientPeer, IWorld, IGroupManager
 	{
 		#region Constants and Fields
 
@@ -45,7 +45,7 @@ namespace Karen90MmoFramework.Server.Social
 		/// <param name="initRequest"></param>
 		/// <param name="application"> </param>
 		public IncomingSocialListenerPeer(InitRequest initRequest, SocialApplication application)
-			: base(initRequest.Protocol, initRequest.PhotonPeer)
+			: base(initRequest)
 		{
 			this.application = application;
 			this.social = MmoSocial.Instance;

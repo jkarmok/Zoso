@@ -248,7 +248,7 @@ namespace Karen90MmoFramework.Server.Core
 		/// </summary>
 		protected abstract OutgoingMasterServerPeer CreateOutgoingMasterPeer(InitResponse initResponse);
 
-		protected override sealed ServerPeerBase CreateServerPeer(InitResponse initResponse, object state)
+		protected override sealed S2SPeerBase CreateServerPeer(InitResponse initResponse, object state)
 		{
 			if (IsGameServer(initResponse))
 			{
@@ -256,7 +256,7 @@ namespace Karen90MmoFramework.Server.Core
 				lock (pendingExternalServerConnections)
 					if (!pendingExternalServerConnections.TryGetValue((long)state, out outgoingServerPeerHandler))
 						return null;
-				return new OutgoingServerToServerPeer(initResponse.Protocol, initResponse.PhotonPeer, outgoingServerPeerHandler);
+				return new OutgoingServerToServerPeer(initResponse, outgoingServerPeerHandler);
 			}
 
 			var peer = this.CreateOutgoingMasterPeer(initResponse);

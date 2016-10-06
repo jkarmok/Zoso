@@ -10,3 +10,10 @@ F:\project-zoso\bin\chat\Karen90MmoFramework.Server.Chat.dll
 F:\project-zoso\bin\chat\Karen90MmoFramework.Server.Chat.pdb
 F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.dll
 F:\project-zoso\server\photon_server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.pdb
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.csprojResolveAssemblyReference.cache
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\chat\log4net.config
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\chat\ServerConfig.config
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\chat\Karen90MmoFramework.Server.Chat.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\bin\Release\chat\Karen90MmoFramework.Server.Chat.pdb
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.dll
+C:\Users\Praveen\Google Drive\works\project-zoso.server\Karen90MmoFramework.Server.Chat\obj\MMO\Karen90MmoFramework.Server.Chat.pdb

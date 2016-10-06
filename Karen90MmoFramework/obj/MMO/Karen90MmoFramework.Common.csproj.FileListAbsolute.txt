@@ -1,4 +1,0 @@
-G:\Project ZoSo\bin\Karen90MmoFramework.Common.dll
-G:\Project ZoSo\bin\Karen90MmoFramework.Common.pdb
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Base\obj\MMO\Karen90MmoFramework.Common.dll
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework.Base\obj\MMO\Karen90MmoFramework.Common.pdb

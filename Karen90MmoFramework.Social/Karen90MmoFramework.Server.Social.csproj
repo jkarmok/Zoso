@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Configuration Condition=" '$(Configuration)' == '' ">MMO</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4EB07F22-E30F-42B2-AC6C-AB9BE16E7662}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -16,28 +16,28 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\bin\social\</OutputPath>
+    <OutputPath>..\bin\Debug\social\</OutputPath>
     <DefineConstants>MMO_DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'MMO|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\bin\social\</OutputPath>
+    <OutputPath>..\bin\Release\social\</OutputPath>
     <DefineConstants>TRACE;MMO_DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ExitGamesLibs">
-      <HintPath>..\..\..\lib\ExitGamesLibs.dll</HintPath>
+      <HintPath>..\lib\ExitGamesLibs.dll</HintPath>
     </Reference>
     <Reference Include="Photon.SocketServer">
-      <HintPath>..\..\..\lib\Photon.SocketServer.dll</HintPath>
+      <HintPath>..\lib\Photon.SocketServer.dll</HintPath>
     </Reference>
     <Reference Include="PhotonHostRuntimeInterfaces">
-      <HintPath>..\..\..\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
+      <HintPath>..\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
@@ -70,14 +70,4 @@
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir)*" "F:\photon\deploy\ProjectZoSo\Social\bin" /c/y</PostBuildEvent>
-  </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

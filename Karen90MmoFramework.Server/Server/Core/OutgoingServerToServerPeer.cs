@@ -6,7 +6,7 @@ using Photon.SocketServer.ServerToServer;
 
 namespace Karen90MmoFramework.Server.Core
 {
-	public class OutgoingServerToServerPeer : ServerPeerBase
+	public class OutgoingServerToServerPeer : S2SPeerBase
 	{
 		#region Constants and Fields
 
@@ -24,8 +24,8 @@ namespace Karen90MmoFramework.Server.Core
 
 		#region Constructors and Destructors
 
-		public OutgoingServerToServerPeer(IRpcProtocol protocol, IPhotonPeer peer, IOutgoingServerPeer outgoingServerPeerHandler)
-			: base(protocol, peer)
+		public OutgoingServerToServerPeer(InitResponse initResponse, IOutgoingServerPeer outgoingServerPeerHandler)
+			: base(initResponse)
 		{
 			if (outgoingServerPeerHandler == null)
 				throw new NullReferenceException("outgoingServerPeerHandler");
@@ -36,7 +36,7 @@ namespace Karen90MmoFramework.Server.Core
 
 		#endregion
 
-		#region ServerPeerBase Implementation
+		#region OutboundS2SPeer Implementation
 
 		protected override void OnEvent(IEventData eventData, SendParameters sendParameters)
 		{

@@ -11,7 +11,7 @@ using Karen90MmoFramework.Server.ServerToServer.Operations;
 
 namespace Karen90MmoFramework.Server.Master
 {
-	public class IncomingSubServerPeer : ServerPeerBase
+	public class IncomingSubServerPeer : InboundS2SPeer
 	{
 		#region Constants and Fields
 
@@ -80,7 +80,7 @@ namespace Karen90MmoFramework.Server.Master
 		#region Constructors and Destructors
 
 		public IncomingSubServerPeer(InitRequest initRequest, MasterApplication application)
-			: base(initRequest.Protocol, initRequest.PhotonPeer)
+			: base(initRequest)
 		{
 			this.application = application;
 			__unmanagedPeer__ = initRequest.PhotonPeer;

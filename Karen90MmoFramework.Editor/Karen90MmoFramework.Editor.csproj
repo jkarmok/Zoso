@@ -20,7 +20,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\bin\Editor\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -30,7 +30,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\bin\Editor\Release\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -38,10 +38,13 @@
     <Prefer32Bit>false</Prefer32Bit>
     <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Karen90MmoFramework.Editor.MainApp</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Raven.Client.Lightweight, Version=2.0.0.0, Culture=neutral, PublicKeyToken=37f41c7f99471593, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\lib\Raven.Client.Lightweight.dll</HintPath>
+      <HintPath>..\lib\Raven.Client.Lightweight.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -164,21 +167,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Karen90MmoFramework\Karen90MmoFramework.csproj">
-      <Project>{a930d2db-b921-4f79-b584-39f57257b642}</Project>
-      <Name>Karen90MmoFramework</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Karen90MmoFramework.Server\Karen90MmoFramework.Server.csproj">
       <Project>{a99dc453-0bbb-42a5-b17e-884bf6ca8b3c}</Project>
       <Name>Karen90MmoFramework.Server</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Karen90MmoFramework\Karen90MmoFramework.csproj">
+      <Project>{a930d2db-b921-4f79-b584-39f57257b642}</Project>
+      <Name>Karen90MmoFramework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

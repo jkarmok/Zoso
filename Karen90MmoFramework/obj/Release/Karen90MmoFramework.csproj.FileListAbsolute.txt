@@ -1,5 +1,0 @@
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\bin\Release\Karen90MmoFramework.dll
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\bin\Release\Karen90MmoFramework.pdb
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Release\Karen90MmoFramework.csprojResolveAssemblyReference.cache
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Release\Karen90MmoFramework.dll
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Release\Karen90MmoFramework.pdb

@@ -1,5 +1,0 @@
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\bin\Debug\Karen90MmoFramework.dll
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\bin\Debug\Karen90MmoFramework.pdb
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.dll
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.pdb
-G:\Project ZoSo\server\photon_server\Karen90MmoFramework\obj\Debug\Karen90MmoFramework.csprojResolveAssemblyReference.cache
